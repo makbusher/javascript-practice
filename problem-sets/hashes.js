@@ -40,10 +40,37 @@ console.log(books[2].author);
 
 // # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
 
+var stateCapitals = {Indiana: "Indianapolis", Illinois: 'Springfield', Montana: "Helena"};
+stateCapitals["Washington"] = "Olympia";
+console.log(stateCapitals);
+
 // # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
+
+var laptop = {brand: "Apple", model: "MacBook Pro", year: 2016};
+console.log(laptop.brand);
+console.log(laptop.model);
+console.log(laptop.year);
 
 // # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
 
+var laptops = [
+  {brand: "Apple", model: "MacBook Pro"},
+  {brand: "Microsoft", model: "Surface"},
+  {brand: "Dell", model: "XPS 13"}
+];
+
+console.log(laptops[1].model);
+
 // # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
+var definitions = {prolific: "(of a plant, animal, or person) producing much fruit or foliage or many offspring", integrity: "the quality of being honest and having strong moral principles; moral uprightness"};
+
+definitions["unification"] = "the process of being united or made into a whole";
+console.log(definitions);
+
 // # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+var shirt = {brand: "Nike", color: "red", size: "large"};
+console.log(shirt.size);
+console.log(shirt.color);
+console.log(shirt.brand);
